@@ -15,7 +15,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Chivas Bot
+helpMessage =""" Dragon Bot
 [Id︎]
 [Mid]
 [Me︎]
@@ -40,12 +40,12 @@ helpMessage =""" Chivas Bot
 
 [Curl]
 [Ourl]
-[url]
-[url:「Group ID」]
+[Url]
+[Url:「Group ID」]
 [Invite：「mid」]
 [Kick：「mid」]
 [Ginfo]
-[jointicket]
+[Jointicket]
 [Cancel]
 [Gn 「group name」]
 [Nk 「name」]
@@ -76,7 +76,8 @@ Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid]
-admin=["YOUR_MID_HERE"]
+admin=["u813e54635fa8ca8c016090e933582652","u8d67d89eeade3917f713d3d3f22df048"]
+creator=["u813e54635fa8ca8c016090e933582652"]
 wait = {
     'contact':True,
     'autoJoin':True,
